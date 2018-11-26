@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErniPrismSample.Contract\ErniPrismSample.Contract.csproj" />
+    <ProjectReference Include="..\ErniPrismSample.Entities\ErniPrismSample.Entities.csproj" />
+    <ProjectReference Include="..\ErniPrismSample.Repository.DataTransferObject\ErniPrismSample.Repository.DataTransferObject.csproj" />
+  </ItemGroup>
+
+</Project>

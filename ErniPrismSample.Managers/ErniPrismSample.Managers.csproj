@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErniPrismSample.Common.Mapper\ErniPrismSample.Common.Mapper.csproj" />
+    <ProjectReference Include="..\ErniPrismSample.Common\ErniPrismSample.Common.csproj" />
+    <ProjectReference Include="..\ErniPrismSample.Entities\ErniPrismSample.Entities.csproj" />
+    <ProjectReference Include="..\ErniPrismSample.Repository\ErniPrismSample.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
